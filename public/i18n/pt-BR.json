@@ -1,0 +1,1268 @@
+{
+  "data": [
+    {
+      "data": {
+        "stringId": 278,
+        "text": "Farm"
+      }
+    },
+    {
+      "data": {
+        "stringId": 280,
+        "text": "Stake"
+      }
+    },
+    {
+      "data": {
+        "stringId": 284,
+        "text": "Câmbio"
+      }
+    },
+    {
+      "data": {
+        "stringId": 286,
+        "text": "Documentação"
+      }
+    },
+    {
+      "data": {
+        "stringId": 288,
+        "text": "Votação"
+      }
+    },
+    {
+      "data": {
+        "stringId": 290,
+        "text": "Loteria"
+      }
+    },
+    {
+      "data": {
+        "stringId": 292,
+        "text": "Desbloquear Carteira"
+      }
+    },
+    {
+      "data": {
+        "stringId": 294,
+        "text": "Seu saldo em %asset%"
+      }
+    },
+    {
+      "data": {
+        "stringId": 296,
+        "text": "Total de Suprimentos %asset%"
+      }
+    },
+    {
+      "data": {
+        "stringId": 298,
+        "text": "BLOQUEADO"
+      }
+    },
+    {
+      "data": {
+        "stringId": 300,
+        "text": "Colheita pendente"
+      }
+    },
+    {
+      "data": {
+        "stringId": 302,
+        "text": "Novas recompensas por bloco"
+      }
+    },
+    {
+      "data": {
+        "stringId": 304,
+        "text": "ZAIF total queimado desde o lançamento"
+      }
+    },
+    {
+      "data": {
+        "stringId": 306,
+        "text": "Veja a Cozinha"
+      }
+    },
+    {
+      "data": {
+        "stringId": 308,
+        "text": "Telegram"
+      }
+    },
+    {
+      "data": {
+        "stringId": 310,
+        "text": "Blogue"
+      }
+    },
+    {
+      "data": {
+        "stringId": 312,
+        "text": "Github"
+      }
+    },
+    {
+      "data": {
+        "stringId": 314,
+        "text": "Twitter"
+      }
+    },
+    {
+      "data": {
+        "stringId": 316,
+        "text": "Depósito"
+      }
+    },
+    {
+      "data": {
+        "stringId": 318,
+        "text": "Ganhe"
+      }
+    },
+    {
+      "data": {
+        "stringId": 320,
+        "text": "Faça Stake de tokens de LP para ganhar ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 322,
+        "text": "Localize o ZAIF, adquira o ZAISTAKE."
+      }
+    },
+    {
+      "data": {
+        "stringId": 328,
+        "text": "Você pode trocar de volta a qualquer momento"
+      }
+    },
+    {
+      "data": {
+        "stringId": 330,
+        "text": "%asset% Ganhou"
+      }
+    },
+    {
+      "data": {
+        "stringId": 332,
+        "text": "Tokens Implantados"
+      }
+    },
+    {
+      "data": {
+        "stringId": 334,
+        "text": "Toda vez que você faz staking e não faz staking fichas ZAIF, o contrato coletará automaticamente recompensas ZAIF para você!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 338,
+        "text": "O Support Zaif está cunhando ZAIF para todos os titulares do ZAISTAKE"
+      }
+    },
+    {
+      "data": {
+        "stringId": 340,
+        "text": "Tokens ZAISTAKE parados"
+      }
+    },
+    {
+      "data": {
+        "stringId": 342,
+        "text": "Tokens XVS obtidos"
+      }
+    },
+    {
+      "data": {
+        "stringId": 344,
+        "text": "Faça Stake do seu ZAIF para ganhar tokens de novos projetos."
+      }
+    },
+    {
+      "data": {
+        "stringId": 346,
+        "text": "As recompensas serão calculadas por bloco e as recompensas totais serão distribuídas automaticamente no final do período de coleta de cada projeto."
+      }
+    },
+    {
+      "data": {
+        "stringId": 348,
+        "text": "Pool"
+      }
+    },
+    {
+      "data": {
+        "stringId": 350,
+        "text": "Em breve"
+      }
+    },
+    {
+      "data": {
+        "stringId": 352,
+        "text": "APR"
+      }
+    },
+    {
+      "data": {
+        "stringId": 354,
+        "text": "Liquidez Total"
+      }
+    },
+    {
+      "data": {
+        "stringId": 356,
+        "text": "Ver no BscScan"
+      }
+    },
+    {
+      "data": {
+        "stringId": 358,
+        "text": "Preço ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 360,
+        "text": "%asset% Tokens obtidos"
+      }
+    },
+    {
+      "data": {
+        "stringId": 362,
+        "text": "%num% blocos até terminar a coleta"
+      }
+    },
+    {
+      "data": {
+        "stringId": 364,
+        "text": "Stake Total de Zaif"
+      }
+    },
+    {
+      "data": {
+        "stringId": 380,
+        "text": "1 ZAIF = 1 ZAISTAKE"
+      }
+    },
+    {
+      "data": {
+        "stringId": 382,
+        "text": "Em breve..."
+      }
+    },
+    {
+      "data": {
+        "stringId": 384,
+        "text": "Sua Stake"
+      }
+    },
+    {
+      "data": {
+        "stringId": 386,
+        "text": "A coleta começa em %num% blocos"
+      }
+    },
+    {
+      "data": {
+        "stringId": 388,
+        "text": "Finalizado."
+      }
+    },
+    {
+      "data": {
+        "stringId": 390,
+        "text": "A coleta termina em %num% blocos"
+      }
+    },
+    {
+      "data": {
+        "stringId": 392,
+        "text": "Site do Projeto"
+      }
+    },
+    {
+      "data": {
+        "stringId": 394,
+        "text": "ZAISTAKE não estocada"
+      }
+    },
+    {
+      "data": {
+        "stringId": 400,
+        "text": "Os detentores de ZAIF dividem proporcionalmente 25% das emissões de blocos ZAIF por dia (10 ZAIF por bloco), as recompensas são distribuídas cada bloco."
+      }
+    },
+    {
+      "data": {
+        "stringId": 402,
+        "text": "Faça Stake de ZAIF para ganhar novos tokens."
+      }
+    },
+    {
+      "data": {
+        "stringId": 406,
+        "text": "Recompensas são calculadas por bloco."
+      }
+    },
+    {
+      "data": {
+        "stringId": 408,
+        "text": "Total:"
+      }
+    },
+    {
+      "data": {
+        "stringId": 410,
+        "text": "Término"
+      }
+    },
+    {
+      "data": {
+        "stringId": 412,
+        "text": "Ver site de projeto"
+      }
+    },
+    {
+      "data": {
+        "stringId": 414,
+        "text": "Seu projeto? 👀"
+      }
+    },
+    {
+      "data": {
+        "stringId": 416,
+        "text": "Crie um pool para seu token"
+      }
+    },
+    {
+      "data": {
+        "stringId": 418,
+        "text": "Inscreva-se agora"
+      }
+    },
+    {
+      "data": {
+        "stringId": 420,
+        "text": "Fase 1: COMPRANDO"
+      }
+    },
+    {
+      "data": {
+        "stringId": 424,
+        "text": "%num% ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 426,
+        "text": "Gaste ZAIF para comprar bilhetes, contribuindo para o pote da loteria. Compras finais aproximadamente 30 minutos antes da loteria. Ganhe prêmios se 2, 3 ou 4 dos números dos seus ingressos forem compatíveis com os números vencedores e suas posições! Boa sorte!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 428,
+        "text": "Seu total de tickets para esta rodada"
+      }
+    },
+    {
+      "data": {
+        "stringId": 430,
+        "text": "Comprar bilhete"
+      }
+    },
+    {
+      "data": {
+        "stringId": 432,
+        "text": "Ver seus tickets"
+      }
+    },
+    {
+      "data": {
+        "stringId": 434,
+        "text": "Tempo restante para comprar bilhetes"
+      }
+    },
+    {
+      "data": {
+        "stringId": 438,
+        "text": "FECHAR"
+      }
+    },
+    {
+      "data": {
+        "stringId": 440,
+        "text": "Últimos Números Vitoriosos"
+      }
+    },
+    {
+      "data": {
+        "stringId": 442,
+        "text": "Tickets correspondentes a 4 números:"
+      }
+    },
+    {
+      "data": {
+        "stringId": 444,
+        "text": "Tickets correspondentes a 3 números:"
+      }
+    },
+    {
+      "data": {
+        "stringId": 446,
+        "text": "Tickets correspondentes a 2 números:"
+      }
+    },
+    {
+      "data": {
+        "stringId": 448,
+        "text": "Exportar números vitoriosos recentes"
+      }
+    },
+    {
+      "data": {
+        "stringId": 450,
+        "text": "Insira a quantidade de tickets para comprar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 452,
+        "text": "Máximo"
+      }
+    },
+    {
+      "data": {
+        "stringId": 454,
+        "text": "%num% ZAIF disponível"
+      }
+    },
+    {
+      "data": {
+        "stringId": 456,
+        "text": "Sua quantia deve ser múltiplo de 10 ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 458,
+        "text": "1 Ticket = 10 ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 462,
+        "text": "cancelar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 464,
+        "text": "Confirmar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 466,
+        "text": "ATENÇÃO"
+      }
+    },
+    {
+      "data": {
+        "stringId": 468,
+        "text": "As compras do bilhete da loteria foram finais."
+      }
+    },
+    {
+      "data": {
+        "stringId": 472,
+        "text": "Os bilhetes só são válidos para um sorteio de loteria e serão queimados após o empate."
+      }
+    },
+    {
+      "data": {
+        "stringId": 474,
+        "text": "Comprar tickets não garante que você ganhará nada. Por favor, só participe quando entender os riscos."
+      }
+    },
+    {
+      "data": {
+        "stringId": 476,
+        "text": "Eu entendo"
+      }
+    },
+    {
+      "data": {
+        "stringId": 478,
+        "text": "As compras de bilhetes foram finais. O seu ZAIF não pode ser devolvido para você depois de comprar os bilhetes."
+      }
+    },
+    {
+      "data": {
+        "stringId": 480,
+        "text": "Receber prêmios"
+      }
+    },
+    {
+      "data": {
+        "stringId": 482,
+        "text": "ZAIF prêmios a serem reivindicados"
+      }
+    },
+    {
+      "data": {
+        "stringId": 484,
+        "text": "Fase 2: CLAIMING"
+      }
+    },
+    {
+      "data": {
+        "stringId": 486,
+        "text": "Você pode desfazer a qualquer momento."
+      }
+    },
+    {
+      "data": {
+        "stringId": 488,
+        "text": "Confirmação Pendente"
+      }
+    },
+    {
+      "data": {
+        "stringId": 490,
+        "text": "Meus Tickets (Total: %TICKETS%)"
+      }
+    },
+    {
+      "data": {
+        "stringId": 492,
+        "text": "Tempo aproximado antes do início da próxima loteria"
+      }
+    },
+    {
+      "data": {
+        "stringId": 494,
+        "text": "Aprovar ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 496,
+        "text": "Os detentores de ZAIF proporcionalmente dividem 40% das emissões de blocos ZAIF por dia (10 ZAIF por bloco), as recompensas são distribuídas cada bloco."
+      }
+    },
+    {
+      "data": {
+        "stringId": 500,
+        "text": "IFO: Ofertas iniciais de Farm"
+      }
+    },
+    {
+      "data": {
+        "stringId": 502,
+        "text": "Compre novos tokens com um novo modelo de venda de tokens."
+      }
+    },
+    {
+      "data": {
+        "stringId": 504,
+        "text": "Você pagará pelos novos tokens usando os tokens ZAIF-BNB LP, o que significa que você precisa atribuir quantidades iguais de ZAIF e BNB em um pool de liquidez para participar."
+      }
+    },
+    {
+      "data": {
+        "stringId": 506,
+        "text": "Obtenha ZAIF-BNB LP >"
+      }
+    },
+    {
+      "data": {
+        "stringId": 508,
+        "text": "O projeto recebe o BNB, a Zaigar queima o ZAIF."
+      }
+    },
+    {
+      "data": {
+        "stringId": 510,
+        "text": "Você recebe os tokens."
+      }
+    },
+    {
+      "data": {
+        "stringId": 512,
+        "text": "Quer lançar o seu próprio IFO?"
+      }
+    },
+    {
+      "data": {
+        "stringId": 514,
+        "text": "Inicie seu projeto com a Zaigar Finance, o projeto AMM da Binance Smart Chain que mais cresce no Brasil, para trazer seu token diretamente para a comunidade mais ativa e de mais rápido crescimento no BSC."
+      }
+    },
+    {
+      "data": {
+        "stringId": 516,
+        "text": "Candidatar-se para iniciar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 520,
+        "text": "Comunidade"
+      }
+    },
+    {
+      "data": {
+        "stringId": 522,
+        "text": "Principal"
+      }
+    },
+    {
+      "data": {
+        "stringId": 526,
+        "text": "Disponível"
+      }
+    },
+    {
+      "data": {
+        "stringId": 528,
+        "text": "Minha Carteira"
+      }
+    },
+    {
+      "data": {
+        "stringId": 530,
+        "text": "Encerrar sessão"
+      }
+    },
+    {
+      "data": {
+        "stringId": 532,
+        "text": "Colher todos (%count%)"
+      }
+    },
+    {
+      "data": {
+        "stringId": 534,
+        "text": "Estatísticas ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 536,
+        "text": "Total Minerado"
+      }
+    },
+    {
+      "data": {
+        "stringId": 538,
+        "text": "Queimadas no total"
+      }
+    },
+    {
+      "data": {
+        "stringId": 540,
+        "text": "Novo ZAIF\/bloco"
+      }
+    },
+    {
+      "data": {
+        "stringId": 542,
+        "text": "Farms e Stake"
+      }
+    },
+    {
+      "data": {
+        "stringId": 544,
+        "text": "ZAIF para Colher"
+      }
+    },
+    {
+      "data": {
+        "stringId": 546,
+        "text": "ZAIF na Carteira"
+      }
+    },
+    {
+      "data": {
+        "stringId": 548,
+        "text": "Coletando ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 550,
+        "text": "Seus Ganhos da Loteria"
+      }
+    },
+    {
+      "data": {
+        "stringId": 552,
+        "text": "ZAIF para Coletar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 554,
+        "text": "Total de pote nessa rodada"
+      }
+    },
+    {
+      "data": {
+        "stringId": 556,
+        "text": "Coletar Ganhos"
+      }
+    },
+    {
+      "data": {
+        "stringId": 558,
+        "text": "Comprar Tickets"
+      }
+    },
+    {
+      "data": {
+        "stringId": 562,
+        "text": "Colheita"
+      }
+    },
+    {
+      "data": {
+        "stringId": 564,
+        "text": "Aprovar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 568,
+        "text": "Selecionar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 570,
+        "text": "Números Vitoriosos nessa rodada"
+      }
+    },
+    {
+      "data": {
+        "stringId": 574,
+        "text": "Pool de Locação"
+      }
+    },
+    {
+      "data": {
+        "stringId": 576,
+        "text": "Zaigar Finance (ZAIF)"
+      }
+    },
+    {
+      "data": {
+        "stringId": 578,
+        "text": "O projeto DEFI da Zaigar."
+      }
+    },
+    {
+      "data": {
+        "stringId": 580,
+        "text": "Faça stake do seu ZAIF para ganhar novos tokens."
+      }
+    },
+    {
+      "data": {
+        "stringId": 582,
+        "text": "Hora de lançamento"
+      }
+    },
+    {
+      "data": {
+        "stringId": 584,
+        "text": "À venda"
+      }
+    },
+    {
+      "data": {
+        "stringId": 586,
+        "text": "ZAIF para queimar (USD)"
+      }
+    },
+    {
+      "data": {
+        "stringId": 588,
+        "text": "Desinteressar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 590,
+        "text": "⭐ Toda vez que você faz staking e sem participação tokens de LP, o contrato coletará automaticamente recompensas ZAIF para você!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 592,
+        "text": "Como fazer parte"
+      }
+    },
+    {
+      "data": {
+        "stringId": 594,
+        "text": "Antes da Venda"
+      }
+    },
+    {
+      "data": {
+        "stringId": 596,
+        "text": "Comprar ZAIF e BNB tokens"
+      }
+    },
+    {
+      "data": {
+        "stringId": 598,
+        "text": "Obter tokens do ZAIF-BNB LP adicionando liquidez do ZAIF e BNB"
+      }
+    },
+    {
+      "data": {
+        "stringId": 600,
+        "text": "Durante a venda"
+      }
+    },
+    {
+      "data": {
+        "stringId": 602,
+        "text": "Enquanto a venda estiver ativa confira seus tokens ZAIF-LP para comprar os tokens IFO"
+      }
+    },
+    {
+      "data": {
+        "stringId": 604,
+        "text": "Após a Venda"
+      }
+    },
+    {
+      "data": {
+        "stringId": 606,
+        "text": "Solicite os tokens comprados, juntamente com qualquer dinheiro não utilizado."
+      }
+    },
+    {
+      "data": {
+        "stringId": 608,
+        "text": "Concluído!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 610,
+        "text": "Leia mais"
+      }
+    },
+    {
+      "data": {
+        "stringId": 612,
+        "text": "Conectar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 614,
+        "text": "Negocie com a ZAIF, ou continue com a coleção!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 616,
+        "text": "Registre seu interesse em ganhar uma NFT abaixo."
+      }
+    },
+    {
+      "data": {
+        "stringId": 618,
+        "text": "Registre-se para uma chance de ganhar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 620,
+        "text": "Mais informações"
+      }
+    },
+    {
+      "data": {
+        "stringId": 622,
+        "text": "Operação em NFT"
+      }
+    },
+    {
+      "data": {
+        "stringId": 624,
+        "text": "Operar em"
+      }
+    },
+    {
+      "data": {
+        "stringId": 626,
+        "text": "Você receberá"
+      }
+    },
+    {
+      "data": {
+        "stringId": 628,
+        "text": "Ao operar nesta NFT para receber a ZAIF, você perderá acesso a ela para sempre!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 630,
+        "text": "Obtenha o NFT"
+      }
+    },
+    {
+      "data": {
+        "stringId": 632,
+        "text": "Como funciona"
+      }
+    },
+    {
+      "data": {
+        "stringId": 634,
+        "text": "Os vencedores poderão reivindicar uma NFT nesta página quando o período de reivindicação iniciar."
+      }
+    },
+    {
+      "data": {
+        "stringId": 636,
+        "text": "Se você não estiver selecionado, não poderá reivindicar. Mais sorte da próxima vez!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 638,
+        "text": "Os vencedores podem negociar com seus NFTs por um valor de ZAIF até a data de vencimento, escrita abaixo. Se você não negociar em sua NFT então, não se preocupe: você ainda vai mantê-la na sua carteira!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 640,
+        "text": "Como os vencedores são selecionados?"
+      }
+    },
+    {
+      "data": {
+        "stringId": 642,
+        "text": "Vencedores são selecionados aleatoriamente! Boa sorte!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 646,
+        "text": "Valor se negociado em"
+      }
+    },
+    {
+      "data": {
+        "stringId": 648,
+        "text": "Número impresso"
+      }
+    },
+    {
+      "data": {
+        "stringId": 650,
+        "text": "Número queimado"
+      }
+    },
+    {
+      "data": {
+        "stringId": 652,
+        "text": "Reivindicar esta NFT"
+      }
+    },
+    {
+      "data": {
+        "stringId": 654,
+        "text": "Operar por ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 656,
+        "text": "Carregando…"
+      }
+    },
+    {
+      "data": {
+        "stringId": 658,
+        "text": "detalhes"
+      }
+    },
+    {
+      "data": {
+        "stringId": 660,
+        "text": "Você ganhou!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 662,
+        "text": "Reivindique uma NFT das opções abaixo!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 664,
+        "text": "Pode ser negociado até"
+      }
+    },
+    {
+      "data": {
+        "stringId": 666,
+        "text": "Carteira desconectada"
+      }
+    },
+    {
+      "data": {
+        "stringId": 668,
+        "text": "Conecte para ver se você ganhou uma NFT!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 670,
+        "text": "Residencial"
+      }
+    },
+    {
+      "data": {
+        "stringId": 672,
+        "text": "Negociar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 674,
+        "text": "Farms"
+      }
+    },
+    {
+      "data": {
+        "stringId": 676,
+        "text": "Polonês"
+      }
+    },
+    {
+      "data": {
+        "stringId": 678,
+        "text": "NFT"
+      }
+    },
+    {
+      "data": {
+        "stringId": 680,
+        "text": "Informações"
+      }
+    },
+    {
+      "data": {
+        "stringId": 682,
+        "text": "IFO"
+      }
+    },
+    {
+      "data": {
+        "stringId": 684,
+        "text": "MAIS"
+      }
+    },
+    {
+      "data": {
+        "stringId": 686,
+        "text": "Liquidez"
+      }
+    },
+    {
+      "data": {
+        "stringId": 688,
+        "text": "Geral"
+      }
+    },
+    {
+      "data": {
+        "stringId": 690,
+        "text": "Identificador"
+      }
+    },
+    {
+      "data": {
+        "stringId": 692,
+        "text": "Pairs"
+      }
+    },
+    {
+      "data": {
+        "stringId": 694,
+        "text": "Organizações"
+      }
+    },
+    {
+      "data": {
+        "stringId": 696,
+        "text": "Faça Stake de tokens de LP para ganhar ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 698,
+        "text": "ativo"
+      }
+    },
+    {
+      "data": {
+        "stringId": 699,
+        "text": "Implantado apenas"
+      }
+    },
+    {
+      "data": {
+        "stringId": 700,
+        "text": "Inativo"
+      }
+    },
+    {
+      "data": {
+        "stringId": 702,
+        "text": "Duplo"
+      }
+    },
+    {
+      "data": {
+        "stringId": 704,
+        "text": "Composto"
+      }
+    },
+    {
+      "data": {
+        "stringId": 706,
+        "text": "Desfazer %asset%"
+      }
+    },
+    {
+      "data": {
+        "stringId": 708,
+        "text": "A Loteria ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 710,
+        "text": "Comprar bilhetes com ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 712,
+        "text": "Ganhe se 2, 3 ou 4 dos seus números de ticket corresponder!"
+      }
+    },
+    {
+      "data": {
+        "stringId": 716,
+        "text": "Próximo sorteio"
+      }
+    },
+    {
+      "data": {
+        "stringId": 718,
+        "text": "Desempates anteriores"
+      }
+    },
+    {
+      "data": {
+        "stringId": 720,
+        "text": "Rodada %num%"
+      }
+    },
+    {
+      "data": {
+        "stringId": 722,
+        "text": "Pote total"
+      }
+    },
+    {
+      "data": {
+        "stringId": 724,
+        "text": "Seus tickets para esta rodada"
+      }
+    },
+    {
+      "data": {
+        "stringId": 726,
+        "text": "Desculpe, não há prêmios para coletar"
+      }
+    },
+    {
+      "data": {
+        "stringId": 728,
+        "text": "Na Carteira"
+      }
+    },
+    {
+      "data": {
+        "stringId": 996,
+        "text": "Valor Total Trancado"
+      }
+    },
+    {
+      "data": {
+        "stringId": 997,
+        "text": "Coletar Moedas"
+      }
+    },
+    {
+      "data": {
+        "stringId": 998,
+        "text": "Ao longo de todas as farms e pools."
+      }
+    },
+    {
+      "data": {
+        "stringId": 10000,
+        "text": "Taxa de depósito será usada para comprar ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 10001,
+        "text": "Taxa"
+      }
+    },
+    {
+      "data": {
+        "stringId": 10002,
+        "text": "Stake de tokens para ganhar o ZAIF"
+      }
+    },
+    {
+      "data": {
+        "stringId": 10003,
+        "text": "Avisos"
+      }
+    },
+    {
+      "data": {
+        "stringId": 10004,
+        "text": "Fornecimento Circulante"
+      }
+    },
+    {
+      "data": {
+        "stringId": 10005,
+        "text": "Capitalização de mercado"
+      }
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "limit": 200
+  }
+}
