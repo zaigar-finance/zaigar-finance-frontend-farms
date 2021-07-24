@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract testRToken",
-        "name": "_zaif",
+        "internalType": "contract newToken",
+        "name": "_symbol",
         "type": "address"
       },
       {
@@ -23,12 +23,12 @@
       },
       {
         "internalType": "address",
-        "name": "_salaryAddress",
+        "name": "_staffAddress",
         "type": "address"
       },
       {
         "internalType": "uint256",
-        "name": "_zaifPerBlock",
+        "name": "_symbolPerBlock",
         "type": "uint256"
       },
       {
@@ -308,7 +308,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accZaifPerShare",
+        "name": "accSymbolPerShare",
         "type": "uint256"
       },
       {
@@ -335,7 +335,7 @@
   },
   {
     "inputs": [],
-    "name": "salaryAddress",
+    "name": "staffAddress",
     "outputs": [
       {
         "internalType": "address",
@@ -363,6 +363,34 @@
   },
   {
     "inputs": [],
+    "name": "symbol",
+    "outputs": [
+      {
+        "internalType": "contract newToken",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true
+  },
+  {
+    "inputs": [],
+    "name": "symbolPerBlock",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true
+  },
+  {
+    "inputs": [],
     "name": "totalAllocPoint",
     "outputs": [
       {
@@ -377,7 +405,7 @@
   },
   {
     "inputs": [],
-    "name": "totalZaifInPools",
+    "name": "totalSymbolInPools",
     "outputs": [
       {
         "internalType": "uint256",
@@ -425,34 +453,6 @@
       {
         "internalType": "uint256",
         "name": "rewardDebt",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function",
-    "constant": true
-  },
-  {
-    "inputs": [],
-    "name": "zaif",
-    "outputs": [
-      {
-        "internalType": "contract testRToken",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function",
-    "constant": true
-  },
-  {
-    "inputs": [],
-    "name": "zaifPerBlock",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
         "type": "uint256"
       }
     ],
@@ -745,7 +745,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accZaifPerShare",
+        "name": "accSymbolPerShare",
         "type": "uint256"
       },
       {
@@ -793,7 +793,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_zaifPerBlock",
+        "name": "_symbolPerBlock",
         "type": "uint256"
       }
     ],

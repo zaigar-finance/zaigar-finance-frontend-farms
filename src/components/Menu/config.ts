@@ -49,36 +49,26 @@ const config: MenuEntry[] = [
     label: 'Info',
     icon: 'InfoIcon',
     items: [
-     /* {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/zcore-finance/',
-      },
+    //  {
+     //   label: 'CoinMarketCap',
+    //    href: 'https://coinmarketcap.com/currencies/zaigar-finance/',
+    //  },     
       {
-        label: 'Docs',
-        href: 'https://docs.zcore.fi/',
+        label: 'Price Chart',
+        href: 'https://goswapp-bsc.web.app/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
       },      
       {
         label: 'Github',
-        href: 'https://github.com/zcore-coin/',
+        href: 'https://github.com/zaigar-finance/',
       },
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x280C3Fc949b1a1D7a470067cA6F7b48b3CB219c5',
-      }, */
-/*      
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/zaigar-finance',
+        href: 'https://pancakeswap.info/token/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
       },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/zaigar-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      },
-*/      
+  //    {
+ //       label: 'Add to Metamask',
+ //       href: 'https://bit.ly/3sSDdrB',
+ //     },    
     ],
   },
   {
@@ -91,7 +81,7 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Buy ZAIF',
+        label: 'Buy ZAFI',
         href: 'https://exchange.zaigar.finance/#/swap?inputCurrency=ETH&outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
       },
       {

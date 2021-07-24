@@ -73,7 +73,7 @@ const Farm: React.FC = () => {
             {TranslateString(282, 'STAKE Pool')}
           </Heading>
           <ul>
-            <li>{TranslateString(580, 'Stake ZAIF to earn new tokens.')}</li>
+            <li>{TranslateString(580, 'Stake ZAFI to earn new tokens.')}</li>
             <li>{TranslateString(404, 'You can unstake at any time.')}</li>
             <li>{TranslateString(406, 'Rewards are calculated per block.')}</li>
           </ul>

@@ -23,7 +23,6 @@ Dockerfile
 .DS_Store
 .env.local
 .env.development.local
-.env
 .eslintcache
 .env.production
 
@@ -37,3 +36,5 @@ sftp-config.json
 /.github/
 clean.sh
 package-lock.json
+# Local Netlify folder
+.netlify

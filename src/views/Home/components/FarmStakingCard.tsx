@@ -71,14 +71,14 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/zai/2.svg" alt="zaif logo" width={64} height={64} />
+        <CardImage src="/images/zai/2.svg" alt="zafi logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'ZAIF to Harvest')}</Label>
+          <Label>{TranslateString(544, 'ZAFI to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'ZAIF in Wallet')}</Label>
+          <Label>{TranslateString(546, 'ZAFI in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
         </Block>
@@ -91,7 +91,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting ZAIF')
+                ? TranslateString(548, 'Collecting ZAFI')
                 : TranslateString(997, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (

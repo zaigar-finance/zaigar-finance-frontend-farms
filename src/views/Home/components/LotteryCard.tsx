@@ -69,10 +69,10 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(550, 'Your Lottery Winnings')}
         </Heading>
-        <CardImage src="/images/ticket.svg" alt="zaif logo" width={64} height={64} />
+        <CardImage src="/images/ticket.svg" alt="zafi logo" width={64} height={64} />
         <Block>
           <CakeWinnings />
-          <Label>{TranslateString(552, 'ZAIF to Collect')}</Label>
+          <Label>{TranslateString(552, 'ZAFI to Collect')}</Label>
         </Block>
         <Block>
           <LotteryJackpot />

@@ -33,16 +33,16 @@ const CakeStats = () => {
   const cakeSupply = getBalanceNumber(circSupply);
   const marketCap = zaifPrice.times(circSupply);
 
-  let zaifPerBlock = 3;
-  if(farms && farms[0] && farms[0].zaifPerBlock){
-    zaifPerBlock = new BigNumber(farms[0].zaifPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let symbolPerBlock = 3;
+  if(farms && farms[0] && farms[0].symbolPerBlock){
+    symbolPerBlock = new BigNumber(farms[0].symbolPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'ZAIF Stats')}
+          {TranslateString(534, 'ZAFI Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -62,8 +62,8 @@ const CakeStats = () => {
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New ZAIF/block')}</Text>
-          <Text bold fontSize="14px">{zaifPerBlock}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New ZAFI/block')}</Text>
+          <Text bold fontSize="14px">{symbolPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>

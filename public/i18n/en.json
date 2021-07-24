@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total ZAIF burned since launch"
+        "text": "Total ZAFI burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn ZAIF"
+        "text": "Stake LP tokens to earn ZAFI"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake ZAIF, get ZAISTAKE."
+        "text": "Stake ZAFI, get ZAISTAKE."
       }
     },
     {
@@ -153,13 +153,13 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake ZAIF tokens, the contract will automatically harvest ZAIF rewards for you!"
+        "text": "Every time you stake and unstake ZAFI tokens, the contract will automatically harvest ZAFI rewards for you!"
       }
     },
     {
       "data": {
         "stringId": 338,
-        "text": "The Support Zaif is minting ZAIF for all ZAISTAKE holders"
+        "text": "The Support Zafi is minting ZAFI for all ZAISTAKE holders"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "ZAIF price"
+        "text": "ZAFI price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 ZAIF = 1 ZAISTAKE"
+        "text": "1 ZAFI = 1 ZAISTAKE"
       }
     },
     {
@@ -291,13 +291,13 @@
     {
       "data": {
         "stringId": 400,
-        "text": "ZAIF holders proportionally split 25% of ZAIF block emissions each day (10 ZAIF per block), Rewards are distributed each block."
+        "text": "ZAFI holders proportionally split 25% of ZAFI block emissions each day (10 ZAFI per block), Rewards are distributed each block."
       }
     },
     {
       "data": {
         "stringId": 402,
-        "text": "Stake ZAIF to earn new tokens."
+        "text": "Stake ZAFI to earn new tokens."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% ZAIF"
+        "text": "%num% ZAFI"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend ZAIF to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend ZAFI to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% ZAIF Available"
+        "text": "%num% ZAFI Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 ZAIF"
+        "text": "Your amount must be a multiple of 10 ZAFI"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 ZAIF"
+        "text": "1 Ticket = 10 ZAFI"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your ZAIF cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your ZAFI cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "ZAIF prizes to be claimed"
+        "text": "ZAFI prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve ZAIF"
+        "text": "Approve ZAFI"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "ZAIF holders proportionally split 40% of ZAIF block emissions each day (10 ZAIF per block), Rewards are distributed each block."
+        "text": "ZAFI holders proportionally split 40% of ZAFI block emissions each day (10 ZAFI per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using ZAIF-BNB LP tokens, which means you need to stake equal amounts of ZAIF and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using ZAFI-BNB LP tokens, which means you need to stake equal amounts of ZAFI and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get ZAIF-BNB LP >"
+        "text": "Get ZAFI-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Zaigar Finance burns the ZAIF."
+        "text": "The project gets the BNB, Zaigar Finance burns the ZAFI."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "ZAIF Stats"
+        "text": "ZAFI Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New ZAIF\/block"
+        "text": "New ZAFI\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "ZAIF to Harvest"
+        "text": "ZAFI to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "ZAIF in Wallet"
+        "text": "ZAFI in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting ZAIF"
+        "text": "Collecting ZAFI"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "ZAIF to Collect"
+        "text": "ZAFI to Collect"
       }
     },
     {
@@ -753,7 +753,7 @@
     {
       "data": {
         "stringId": 576,
-        "text": "Zaigar Finance (ZAIF)"
+        "text": "Zaigar Finance (ZAFI)"
       }
     },
     {
@@ -765,7 +765,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake ZAIF to earn new tokens."
+        "text": "Stake ZAFI to earn new tokens."
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "ZAIF to burn (USD)"
+        "text": "ZAFI to burn (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest ZAIF rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest ZAFI rewards for you!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy ZAIF and BNB tokens"
+        "text": "Buy ZAFI and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get ZAIF-BNB LP tokens by adding ZAIF and BNB liquidity"
+        "text": "Get ZAFI-BNB LP tokens by adding ZAFI and BNB liquidity"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your ZAIF-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your ZAFI-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for ZAIF, or keep for your collection!"
+        "text": "Trade in for ZAFI, or keep for your collection!"
       }
     },
     {
@@ -909,7 +909,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive ZAIF, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive ZAFI, you will lose access to it forever!"
       }
     },
     {
@@ -939,7 +939,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a ZAIF value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a ZAFI value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for ZAIF"
+        "text": "Trade in for ZAFI"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn ZAIF"
+        "text": "Stake LP tokens to earn ZAFI"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The ZAIF Lottery"
+        "text": "The ZAFI Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with ZAIF"
+        "text": "Buy tickets with ZAFI"
       }
     },
     {
@@ -1227,7 +1227,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback ZAIF"
+        "text": "Deposit Fee will be used to buyback ZAFI"
       }
     },
     {
@@ -1239,7 +1239,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn ZAIF"
+        "text": "Stake tokens to earn ZAFI"
       }
     },
     {
