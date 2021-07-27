@@ -81,7 +81,7 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Buy ZAFI',
+        label: 'Buy zfai',
         href: 'https://exchange.zaigar.finance/#/swap?inputCurrency=ETH&outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
       },
       {

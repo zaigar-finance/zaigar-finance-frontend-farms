@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract newToken",
-        "name": "_symbol",
+        "internalType": "contract ZafiraToken",
+        "name": "_zfai",
         "type": "address"
       },
       {
@@ -28,7 +28,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_symbolPerBlock",
+        "name": "_zfaiPerBlock",
         "type": "uint256"
       },
       {
@@ -213,7 +213,7 @@
   },
   {
     "inputs": [],
-    "name": "blockSalaryFee",
+    "name": "blockStaffFee",
     "outputs": [
       {
         "internalType": "uint16",
@@ -308,7 +308,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accSymbolPerShare",
+        "name": "accZfaiPerShare",
         "type": "uint256"
       },
       {
@@ -363,34 +363,6 @@
   },
   {
     "inputs": [],
-    "name": "symbol",
-    "outputs": [
-      {
-        "internalType": "contract newToken",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function",
-    "constant": true
-  },
-  {
-    "inputs": [],
-    "name": "symbolPerBlock",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function",
-    "constant": true
-  },
-  {
-    "inputs": [],
     "name": "totalAllocPoint",
     "outputs": [
       {
@@ -405,7 +377,7 @@
   },
   {
     "inputs": [],
-    "name": "totalSymbolInPools",
+    "name": "totalZfaiInPools",
     "outputs": [
       {
         "internalType": "uint256",
@@ -453,6 +425,34 @@
       {
         "internalType": "uint256",
         "name": "rewardDebt",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true
+  },
+  {
+    "inputs": [],
+    "name": "zfai",
+    "outputs": [
+      {
+        "internalType": "contract ZafiraToken",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true
+  },
+  {
+    "inputs": [],
+    "name": "zfaiPerBlock",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
         "type": "uint256"
       }
     ],
@@ -623,7 +623,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingZaif",
+    "name": "pendingZfai",
     "outputs": [
       {
         "internalType": "uint256",
@@ -637,7 +637,7 @@
   },
   {
     "inputs": [],
-    "name": "lockedZaif",
+    "name": "lockedZfai",
     "outputs": [
       {
         "internalType": "uint256",
@@ -745,7 +745,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accSymbolPerShare",
+        "name": "accZfaiPerShare",
         "type": "uint256"
       },
       {
@@ -793,7 +793,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_symbolPerBlock",
+        "name": "_zfaiPerBlock",
         "type": "uint256"
       }
     ],

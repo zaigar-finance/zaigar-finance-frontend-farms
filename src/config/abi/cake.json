@@ -138,11 +138,6 @@
     "type": "event"
   },
   {
-    "stateMutability": "payable",
-    "type": "fallback",
-    "payable": true
-  },
-  {
     "inputs": [],
     "name": "BURN_ADDRESS",
     "outputs": [
@@ -323,13 +318,6 @@
     "stateMutability": "view",
     "type": "function",
     "constant": true
-  },
-  {
-    "inputs": [],
-    "name": "clearETH",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
   },
   {
     "inputs": [],
@@ -637,11 +625,6 @@
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
-  },
-  {
-    "stateMutability": "payable",
-    "type": "receive",
-    "payable": true
   },
   {
     "inputs": [

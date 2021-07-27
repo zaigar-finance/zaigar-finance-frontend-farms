@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "ZAFI total queimado desde o lançamento"
+        "text": "ZFAI total queimado desde o lançamento"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Faça Stake de tokens de LP para ganhar ZAFI"
+        "text": "Faça Stake de tokens de LP para ganhar ZFAI"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Localize o ZAFI, adquira o ZAISTAKE."
+        "text": "Localize o ZFAI, adquira o ZAISTAKE."
       }
     },
     {
@@ -153,13 +153,13 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Toda vez que você faz staking e não faz staking fichas ZAFI, o contrato coletará automaticamente recompensas ZAFI para você!"
+        "text": "Toda vez que você faz staking e não faz staking fichas ZFAI, o contrato coletará automaticamente recompensas ZFAI para você!"
       }
     },
     {
       "data": {
         "stringId": 338,
-        "text": "O Support Zafi está cunhando ZAFI para todos os titulares do ZAISTAKE"
+        "text": "O Support ZFAI está cunhando ZFAI para todos os titulares do ZAISTAKE"
       }
     },
     {
@@ -177,7 +177,7 @@
     {
       "data": {
         "stringId": 344,
-        "text": "Faça Stake do seu ZAFI para ganhar tokens de novos projetos."
+        "text": "Faça Stake do seu ZFAI para ganhar tokens de novos projetos."
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Preço ZAFI"
+        "text": "Preço ZFAI"
       }
     },
     {
@@ -237,13 +237,13 @@
     {
       "data": {
         "stringId": 364,
-        "text": "Stake Total de Zafi"
+        "text": "Stake Total de ZFAI"
       }
     },
     {
       "data": {
         "stringId": 380,
-        "text": "1 ZAFI = 1 ZAISTAKE"
+        "text": "1 ZFAI = 1 ZAISTAKE"
       }
     },
     {
@@ -291,13 +291,13 @@
     {
       "data": {
         "stringId": 400,
-        "text": "Os detentores de ZAFI dividem proporcionalmente 25% das emissões de blocos ZAFI por dia (10 ZAFI por bloco), as recompensas são distribuídas cada bloco."
+        "text": "Os detentores de ZFAI dividem proporcionalmente 25% das emissões de blocos ZFAI por dia (10 ZFAI por bloco), as recompensas são distribuídas cada bloco."
       }
     },
     {
       "data": {
         "stringId": 402,
-        "text": "Faça Stake de ZAFI para ganhar novos tokens."
+        "text": "Faça Stake de ZFAI para ganhar novos tokens."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% ZAFI"
+        "text": "%num% ZFAI"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Gaste ZAFI para comprar bilhetes, contribuindo para o pote da loteria. Compras finais aproximadamente 30 minutos antes da loteria. Ganhe prêmios se 2, 3 ou 4 dos números dos seus ingressos forem compatíveis com os números vencedores e suas posições! Boa sorte!"
+        "text": "Gaste ZFAI para comprar bilhetes, contribuindo para o pote da loteria. Compras finais aproximadamente 30 minutos antes da loteria. Ganhe prêmios se 2, 3 ou 4 dos números dos seus ingressos forem compatíveis com os números vencedores e suas posições! Boa sorte!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% ZAFI disponível"
+        "text": "%num% ZFAI disponível"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Sua quantia deve ser múltiplo de 10 ZAFI"
+        "text": "Sua quantia deve ser múltiplo de 10 ZFAI"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 ZAFI"
+        "text": "1 Ticket = 10 ZFAI"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "As compras de bilhetes foram finais. O seu ZAFI não pode ser devolvido para você depois de comprar os bilhetes."
+        "text": "As compras de bilhetes foram finais. O seu ZFAI não pode ser devolvido para você depois de comprar os bilhetes."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "ZAFI prêmios a serem reivindicados"
+        "text": "ZFAI prêmios a serem reivindicados"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Aprovar ZAFI"
+        "text": "Aprovar ZFAI"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "Os detentores de ZAFI proporcionalmente dividem 40% das emissões de blocos ZAFI por dia (10 ZAFI por bloco), as recompensas são distribuídas cada bloco."
+        "text": "Os detentores de ZFAI proporcionalmente dividem 40% das emissões de blocos ZFAI por dia (10 ZFAI por bloco), as recompensas são distribuídas cada bloco."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "Você pagará pelos novos tokens usando os tokens ZAFI-BNB LP, o que significa que você precisa atribuir quantidades iguais de ZAFI e BNB em um pool de liquidez para participar."
+        "text": "Você pagará pelos novos tokens usando os tokens ZFAI-BNB LP, o que significa que você precisa atribuir quantidades iguais de ZFAI e BNB em um pool de liquidez para participar."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Obtenha ZAFI-BNB LP >"
+        "text": "Obtenha ZFAI-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "O projeto recebe o BNB, a Zaigar queima o ZAFI."
+        "text": "O projeto recebe o BNB, a Zaigar queima o ZFAI."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Estatísticas ZAFI"
+        "text": "Estatísticas ZFAI"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "Novo ZAFI\/bloco"
+        "text": "Novo ZFAI\/bloco"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "ZAFI para Colher"
+        "text": "ZFAI para Colher"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "ZAFI na Carteira"
+        "text": "ZFAI na Carteira"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Coletando ZAFI"
+        "text": "Coletando ZFAI"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "ZAFI para Coletar"
+        "text": "ZFAI para Coletar"
       }
     },
     {
@@ -753,7 +753,7 @@
     {
       "data": {
         "stringId": 576,
-        "text": "Zaigar Finance (ZAFI)"
+        "text": "Zaigar Finance (ZFAI)"
       }
     },
     {
@@ -765,7 +765,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Faça stake do seu ZAFI para ganhar novos tokens."
+        "text": "Faça stake do seu ZFAI para ganhar novos tokens."
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "ZAFI para queimar (USD)"
+        "text": "ZFAI para queimar (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "⭐ Toda vez que você faz staking e sem participação tokens de LP, o contrato coletará automaticamente recompensas ZAFI para você!"
+        "text": "⭐ Toda vez que você faz staking e sem participação tokens de LP, o contrato coletará automaticamente recompensas ZFAI para você!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Comprar ZAFI e BNB tokens"
+        "text": "Comprar ZFAI e BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Obter tokens do ZAFI-BNB LP adicionando liquidez do ZAFI e BNB"
+        "text": "Obter tokens do ZFAI-BNB LP adicionando liquidez do ZFAI e BNB"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "Enquanto a venda estiver ativa confira seus tokens ZAFI-LP para comprar os tokens IFO"
+        "text": "Enquanto a venda estiver ativa confira seus tokens ZFAI-LP para comprar os tokens IFO"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Negocie com a ZAFI, ou continue com a coleção!"
+        "text": "Negocie com a ZFAI, ou continue com a coleção!"
       }
     },
     {
@@ -909,7 +909,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "Ao operar nesta NFT para receber a ZAFI, você perderá acesso a ela para sempre!"
+        "text": "Ao operar nesta NFT para receber a ZFAI, você perderá acesso a ela para sempre!"
       }
     },
     {
@@ -939,7 +939,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Os vencedores podem negociar com seus NFTs por um valor de ZAFI até a data de vencimento, escrita abaixo. Se você não negociar em sua NFT então, não se preocupe: você ainda vai mantê-la na sua carteira!"
+        "text": "Os vencedores podem negociar com seus NFTs por um valor de ZFAI até a data de vencimento, escrita abaixo. Se você não negociar em sua NFT então, não se preocupe: você ainda vai mantê-la na sua carteira!"
       }
     },
     {
@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Operar por ZAFI"
+        "text": "Operar por ZFAI"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Faça Stake de tokens de LP para ganhar ZAFI"
+        "text": "Faça Stake de tokens de LP para ganhar ZFAI"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "A Loteria ZAFI"
+        "text": "A Loteria ZFAI"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Comprar bilhetes com ZAFI"
+        "text": "Comprar bilhetes com ZFAI"
       }
     },
     {
@@ -1227,7 +1227,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Taxa de depósito será usada para comprar ZAFI"
+        "text": "Taxa de depósito será usada para comprar ZFAI"
       }
     },
     {
@@ -1239,7 +1239,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake de tokens para ganhar o ZAFI"
+        "text": "Stake de tokens para ganhar o ZFAI"
       }
     },
     {

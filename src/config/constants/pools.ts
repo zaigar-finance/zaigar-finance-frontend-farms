@@ -3,8 +3,8 @@ import { PoolConfig, QuoteToken, PoolCategory } from './types'
 const pools: PoolConfig[] = [
   /* {
      sousId: 0,
-     tokenName: 'ZAFI',
-     stakingTokenName: QuoteToken.ZAFI,
+     tokenName: 'zfai',
+     stakingTokenName: QuoteToken.zfai,
      stakingTokenAddress: '0x1f4b9626358E75a566Bc6d6b3b14A128F07A3622',
     contractAddress: {
        97: '0x84BEa44A4F17EaA6034308a94478eacf359C1f09',
