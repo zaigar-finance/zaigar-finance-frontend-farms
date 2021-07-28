@@ -3,7 +3,7 @@ import { useEffect, useMemo } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import useRefresh from 'hooks/useRefresh'
 import { fetchFarmsPublicDataAsync, fetchPoolsPublicDataAsync, fetchPoolsUserDataAsync } from './actions'
-import { State, Farm, Pool } from './types'
+import { State, Farm, Pool , FarmsState } from './types'
 import { QuoteToken } from '../config/constants/types'
 
 const ZERO = new BigNumber(0)
@@ -21,6 +21,11 @@ export const useFetchPublicData = () => {
 
 export const useFarms = (): Farm[] => {
   const farms = useSelector((state: State) => state.farms.data)
+  return farms
+}
+
+export const useFarmsState = (): FarmsState => {
+  const farms = useSelector((state: State) => state.farms)
   return farms
 }
 

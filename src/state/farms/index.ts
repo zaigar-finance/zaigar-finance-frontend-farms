@@ -1,6 +1,7 @@
 /* eslint-disable no-param-reassign */
 import { createSlice } from '@reduxjs/toolkit'
 import farmsConfig from 'config/constants/farms'
+import isArchivedPid from 'utils/farmHelpers'
 import fetchFarms from './fetchFarms'
 import {
   fetchFarmUserEarnings,
@@ -35,6 +36,8 @@ export const farmsSlice = createSlice({
 
 // Actions
 export const { setFarmsPublicData, setFarmUserData } = farmsSlice.actions
+
+export const nonArchivedFarms = farmsConfig.filter(({ pid }) => !isArchivedPid(pid))
 
 // Thunks
 export const fetchFarmsPublicDataAsync = () => async (dispatch) => {

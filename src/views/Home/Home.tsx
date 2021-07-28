@@ -3,9 +3,11 @@ import styled from 'styled-components'
 import { Heading, Text, BaseLayout } from '@zaigar-finance/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
+import EarnAPRCard from './components/EarnAPRCard'
 import FarmStakingCard from './components/FarmStakingCard'
 import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
+import ZaifStats from './components/ZaifStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 
@@ -68,8 +70,10 @@ const Home: React.FC = () => {
         <Cards>
           <FarmStakingCard />
           <TwitterCard/>
-          <CakeStats />
+          <EarnAPRCard />
           <TotalValueLockedCard />
+          <CakeStats />
+          <ZaifStats />
         </Cards>
       </div>
     </Page>

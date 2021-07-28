@@ -3,9 +3,10 @@ import BigNumber from 'bignumber.js'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { provider } from 'web3-core'
 import cakeABI from 'config/abi/cake.json'
+import zaifABI from 'config/abi/zaif.json'
 import { getContract } from 'utils/web3'
 import { getTokenBalance } from 'utils/erc20'
-import { getCakeAddress } from 'utils/addressHelpers'
+import { getCakeAddress,getZaifAddress } from 'utils/addressHelpers'
 import useRefresh from './useRefresh'
 
 const useTokenBalance = (tokenAddress: string) => {
@@ -42,6 +43,40 @@ export const useTotalSupply = () => {
   }, [slowRefresh])
 
   return totalSupply
+}
+
+export const useZaifTotalSupply = () => {
+  const { slowRefresh } = useRefresh()
+  const [totalSupply, setTotalSupply] = useState<BigNumber>()
+
+  useEffect(() => {
+    async function fetchTotalSupply() {
+      const zaifContract = getContract(zaifABI, getZaifAddress())
+      const supply = await zaifContract.methods.totalSupply().call()
+      setTotalSupply(new BigNumber(supply))
+    }
+
+    fetchTotalSupply()
+  }, [slowRefresh])
+
+  return totalSupply
+}
+
+export const useZaifBurnedBalance = (tokenAddress: string) => {
+  const [balance, setBalance] = useState(new BigNumber(0))
+  const { slowRefresh } = useRefresh()
+
+  useEffect(() => {
+    const fetchBalance = async () => {
+      const zaifContract = getContract(zaifABI, getZaifAddress())
+      const bal = await zaifContract.methods.balanceOf('0x000000000000000000000000000000000000dead').call()
+      setBalance(new BigNumber(bal))
+    }
+
+    fetchBalance()
+  }, [tokenAddress, slowRefresh])
+
+  return balance
 }
 
 export const useBurnedBalance = (tokenAddress: string) => {
