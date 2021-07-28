@@ -11,8 +11,8 @@ const Menu = (props) => {
   const { account, connect, reset } = useWallet()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
-  const cakePriceUsd = usePriceCakeBusd()
-  const zaifPriceUsd = usePriceZaifBusd()
+  const cakePriceUsd = 0.01 // usePriceCakeBusd()
+  const zaifPriceUsd = 0.01 // usePriceZaifBusd()
 
   return (
     <UikitMenu
@@ -24,11 +24,11 @@ const Menu = (props) => {
       currentLang={selectedLanguage && selectedLanguage.code}
       langs={allLanguages}
       setLang={setSelectedLanguage}
-      cakePriceUsd={cakePriceUsd.toNumber()}
-      zaifPriceUsd={zaifPriceUsd.toNumber()}
+      cakePriceUsd={cakePriceUsd} // {cakePriceUsd.toNumber()}
+      zaifPriceUsd={zaifPriceUsd} // {zaifPriceUsd.toNumber()}
       links={config}
       priceLinkZaif="https://bscscan.com/token/0x280C3Fc949b1a1D7a470067cA6F7b48b3CB219c5"
-      priceLinkZfai="https://bscscan.com/token/0x280C3Fc949b1a1D7a470067cA6F7b48b3CB219c7"
+      priceLinkZfai="https://bscscan.com/token/0x280C3Fc949b1a1D7a470067cA6F7b48b3CB219c5"
       {...props}
     />
   )
