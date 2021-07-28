@@ -7,7 +7,7 @@ import { useTotalSupply, useBurnedBalance,useMaxSupply } from 'hooks/useTokenBal
 import useI18n from 'hooks/useI18n'
 import { getCakeAddress } from 'utils/addressHelpers'
 import CardValue from './CardValue'
-import { useFarms, usePriceCakeBusd } from '../../../state/hooks'
+import { useFarms, usePriceCakeBusd, usePriceZaifBusd } from '../../../state/hooks'
 
 const StyledCakeStats = styled(Card)`
   margin-left: auto;
@@ -28,10 +28,11 @@ const CakeStats = () => {
   const maxSupply = useMaxSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms();
-  const zaifPrice = usePriceCakeBusd();
+  const zfaiPrice = usePriceCakeBusd();
+  const zaifPrice = usePriceZaifBusd();
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
-  const cakeSupply = getBalanceNumber(circSupply);
-  const marketCap = zaifPrice.times(circSupply);
+  const zfaiSupply = getBalanceNumber(circSupply);
+  const marketCap =  zaifPrice.times(circSupply);  // zfaiPrice.times(circSupply);
 
   let zfaiPerBlock = 3;
   if(farms && farms[0] && farms[0].zfaiPerBlock){
@@ -50,7 +51,7 @@ const CakeStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(999, 'Circulating Supply')}</Text>
-          {totalSupply && <CardValue fontSize="14px" value={getBalanceNumber(totalSupply)} decimals={0} />}
+          {totalSupply && <CardValue fontSize="14px" value={zfaiSupply} decimals={0} />}
         </Row>
 
         <Row>
