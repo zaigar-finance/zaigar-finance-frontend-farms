@@ -42,15 +42,11 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'zfai Stats')}
+          {TranslateString(534, 'ZFAI Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
-        </Row>
-        <Row>
-          <Text fontSize="14px">{TranslateString(999, 'Max Supply')}</Text>
-          {maxSupply && <CardValue fontSize="14px" value={getBalanceNumber(maxSupply)} decimals={0} />}
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(999, 'Circulating Supply')}</Text>
@@ -62,7 +58,7 @@ const CakeStats = () => {
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New zfai/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New ZFAI/block')}</Text>
           <Text bold fontSize="14px">{zfaiPerBlock}</Text>
         </Row>
       </CardBody>

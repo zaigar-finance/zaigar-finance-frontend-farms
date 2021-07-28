@@ -3,6 +3,10 @@ export default {
     56: '0x280C3Fc949b1a1D7a470067cA6F7b48b3CB219c5', 
     97: '0xd58bc8587535241FC1F66B28C06bbC4C263B0f2D',
   },
+  zaif: {
+    56: '0x280C3Fc949b1a1D7a470067cA6F7b48b3CB219c5', 
+    97: '0xd614fa47af78087eff6cd439ceed0c5847e01834',
+  },
   masterChef: {
     56: '',
     97: '0xB97F56D66249459cB64929E74Bd40f2c9C7bD28C',

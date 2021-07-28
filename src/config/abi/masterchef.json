@@ -434,7 +434,7 @@
   },
   {
     "inputs": [],
-    "name": "zfai",
+    "name": "ZFAI",
     "outputs": [
       {
         "internalType": "contract ZafiraToken",
