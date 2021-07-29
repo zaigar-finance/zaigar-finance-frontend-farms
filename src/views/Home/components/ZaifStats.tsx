@@ -24,7 +24,7 @@ const Row = styled.div`
 
 const ZaifStats = () => {
   const TranslateString = useI18n()
-  const totalSupply = useZaifTotalSupply()
+  const totalSupply = 10000000 // useZaifTotalSupply()
   const maxSupply = useMaxSupply()
   const burnedBalance =  102891 // useZaifBurnedBalance(getZaifAddress())
   const farms = useFarms();
@@ -53,13 +53,20 @@ const ZaifStats = () => {
           <CardValue fontSize="14px" value={marketCap} decimals={0} prefix="$" />
         </Row>
         <Row>
+          <Text fontSize="14px">{TranslateString(999, 'Total Supply')}</Text>
+          {totalSupply && <CardValue fontSize="14px" value={totalSupply} decimals={0} />}
+        </Row>
+        <Row>
           <Text fontSize="14px">{TranslateString(999, 'Circulating Supply')}</Text>
           {totalSupply && <CardValue fontSize="14px" value={circSupply} decimals={0} />}
         </Row>
-
         <Row>
           <Text fontSize="14px">{TranslateString(538, 'Total Burned')}</Text>
           <CardValue fontSize="14px" value={burnedBalance} decimals={0} />
+        </Row>
+        <Row>
+          <Text fontSize="14px">{TranslateString(999, 'Tax Fee')}</Text>
+          <Text fontSize="14px">{TranslateString(999, '5%')}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>
