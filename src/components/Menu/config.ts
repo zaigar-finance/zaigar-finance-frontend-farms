@@ -86,11 +86,11 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Whitepaper(EN)',
-        href: 'https://zaigar.finance/ZaigarFinancewpenglish.',
+        href: 'https://zaigar.finance/ZaigarFinancewpenglish.pdf',
       },
       {
         label: 'Whitepaper(PT)',
-        href: 'https://zaigar.finance/ZaigarFinancewpportuguese.',
+        href: 'https://zaigar.finance/ZaigarFinancewpportuguese.pdf',
       },
     ],
   }, 
