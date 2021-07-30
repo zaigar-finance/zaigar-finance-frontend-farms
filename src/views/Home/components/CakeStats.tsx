@@ -34,7 +34,7 @@ const CakeStats = () => {
   const zfaiSupply = getBalanceNumber(circSupply);
   const marketCap =  zaifPrice.times(circSupply);  // zfaiPrice.times(circSupply);
 
-  let zfaiPerBlock = 3;
+  let zfaiPerBlock = 4;
   if(farms && farms[0] && farms[0].zfaiPerBlock){
     zfaiPerBlock = new BigNumber(farms[0].zfaiPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
