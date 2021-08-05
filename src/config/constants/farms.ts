@@ -158,7 +158,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDT',
     lpAddresses: {
       97: '0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684',
-      56: '0x55d398326f99059ff775485246999027b3197955',
+      56: '0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE',
     },
     isTokenOnly: true,
     tokenSymbol: 'USDT',
