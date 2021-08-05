@@ -32,7 +32,7 @@ const CakeStats = () => {
   const zaifPrice = usePriceZaifBusd();
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
   const zfaiSupply = getBalanceNumber(circSupply);
-  const marketCap =  zaifPrice.times(circSupply);  // zfaiPrice.times(circSupply);
+  const marketCap =  zfaiPrice.times(circSupply);
 
   let zfaiPerBlock = 4;
   if(farms && farms[0] && farms[0].zfaiPerBlock){

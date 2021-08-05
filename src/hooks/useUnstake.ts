@@ -27,7 +27,7 @@ const useUnstake = (pid: number) => {
   return { onUnstake: handleUnstake }
 }
 
-const SYRUPIDS = [5, 6, 3, 1, 22, 23]
+const SYRUPIDS = [63, 64, 65, 66, 67, 68]
 
 export const useSousUnstake = (sousId) => {
   const dispatch = useDispatch()

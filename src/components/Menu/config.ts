@@ -52,7 +52,15 @@ const config: MenuEntry[] = [
     //  {
      //   label: 'CoinMarketCap',
     //    href: 'https://coinmarketcap.com/currencies/zaigar-finance/',
-    //  },     
+    //  },
+      {
+        label: 'ZFAI-Price Chart',
+        href: 'https://dex.guru/token/0x205cD59eEA8e8c5083f16D20e1050fD4a7d72037-bsc',
+      },      
+      {
+        label: 'ZFAI-PancakeSwap',
+        href: 'https://pancakeswap.info/token/0x205cD59eEA8e8c5083f16D20e1050fD4a7d72037',
+      },     
       {
         label: 'ZAIF-Price Chart',
         href: 'https://dex.guru/token/0x280c3fc949b1a1d7a470067ca6f7b48b3cb219c5-bsc',
@@ -80,6 +88,10 @@ const config: MenuEntry[] = [
     label: 'More',
     icon: 'MoreIcon',
     items: [
+      {
+        label: 'Buy ZFAI',
+        href: 'https://exchange.zaigar.finance/#/swap?inputCurrency=ETH&outputCurrency=0x205cD59eEA8e8c5083f16D20e1050fD4a7d72037',
+      },
       {
         label: 'Buy ZAIF',
         href: 'https://exchange.zaigar.finance/#/swap?inputCurrency=ETH&outputCurrency=0x280C3Fc949b1a1D7a470067cA6F7b48b3CB219c5',

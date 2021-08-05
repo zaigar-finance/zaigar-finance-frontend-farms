@@ -24,15 +24,14 @@ const Row = styled.div`
 
 const ZaifStats = () => {
   const TranslateString = useI18n()
-  const totalSupply = 10000000 // useZaifTotalSupply()
-  const maxSupply = useMaxSupply()
-  const burnedBalance =  102891 // useZaifBurnedBalance(getZaifAddress())
+  const totalSupply = useZaifTotalSupply()
+  const maxSupply = 10000000 // useMaxSupply()
+  const burnedBalance = useZaifBurnedBalance(getZaifAddress())
   const farms = useFarms();
-  const zaifPrice =  0.01 // usePriceZaifBusd();
-  const circSupply = 9897109 // totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
-  // const zaifSupply = getBalanceNumber(circSupply);
-  // const marketCap =  zaifPrice.times(circSupply);
-  const marketCap =  zaifPrice*circSupply;
+  const zaifPrice =  usePriceZaifBusd();
+  const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
+  const zaifSupply = getBalanceNumber(circSupply);
+  const marketCap =  zaifPrice.times(circSupply);
 
   let zfaiPerBlock = 3;
   if(farms && farms[0] && farms[0].zfaiPerBlock){
@@ -50,19 +49,19 @@ const ZaifStats = () => {
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
-          <CardValue fontSize="14px" value={marketCap} decimals={0} prefix="$" />
+          <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(999, 'Total Supply')}</Text>
-          {totalSupply && <CardValue fontSize="14px" value={totalSupply} decimals={0} />}
+          <Text fontSize="14px">{TranslateString(999, 'Max Supply')}</Text>
+          {totalSupply && <CardValue fontSize="14px" value={maxSupply} decimals={0} />}
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(999, 'Circulating Supply')}</Text>
-          {totalSupply && <CardValue fontSize="14px" value={circSupply} decimals={0} />}
+          {totalSupply && <CardValue fontSize="14px" value={getBalanceNumber(totalSupply)} decimals={0} />}
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(538, 'Total Burned')}</Text>
-          <CardValue fontSize="14px" value={burnedBalance} decimals={0} />
+          <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(999, 'Tax Fee')}</Text>
