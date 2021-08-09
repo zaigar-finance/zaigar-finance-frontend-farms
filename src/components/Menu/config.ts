@@ -106,11 +106,11 @@ const config: MenuEntry[] = [
       },
     ],
   }, 
-  /* {
+  {
     label: 'Audit By TechRate',
     icon: 'AuditIcon',
-    href: 'https://certik.org/projects/zcore',
-  },  */
+    href: 'https://zaigar.finance/ZaigarFinanceTechRateAudit.pdf',
+  },  
  /* {
     label: 'Docs',
     icon: 'GitbookIcon',
