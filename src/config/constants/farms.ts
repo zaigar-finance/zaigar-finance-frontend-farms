@@ -169,13 +169,13 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   }, 
-/*  {
-    pid: 10,
-    risk: 1,
+  {
+    pid: 9,
+    risk: 2,
     lpSymbol: 'BTCB',
     lpAddresses: {
       97: '0x6ce8da28e2f864420840cf74474eff5fd80e65b8',
-      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+      56: '0xF45cd219aEF8618A92BAa7aD848364a158a24F33',
     },
     isTokenOnly: true,
     tokenSymbol: 'BTCB',
@@ -185,7 +185,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  }, */
+  }, 
 
 ]
 
