@@ -30,8 +30,9 @@ const StakeAction: React.FC<FarmCardActionsProps> = ({ stakedBalance, tokenBalan
   const { onUnstake } = useUnstake(pid)
 
   const rawStakedBalance = getBalanceNumber(stakedBalance)
-  const displayBalance = rawStakedBalance.toLocaleString()
 
+  const displayBalance = tokenName === "BTCB" ? rawStakedBalance.toLocaleString(undefined,{ maximumFractionDigits: 6 }) : rawStakedBalance.toLocaleString(undefined,{ maximumFractionDigits: 4 })
+    
   const [onPresentDeposit] = useModal(<DepositModal max={tokenBalance} onConfirm={onStake} tokenName={tokenName} depositFeeBP={depositFeeBP} />)
   const [onPresentWithdraw] = useModal(
     <WithdrawModal max={stakedBalance} onConfirm={onUnstake} tokenName={tokenName} />,
