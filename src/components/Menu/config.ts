@@ -107,15 +107,15 @@ const config: MenuEntry[] = [
     ],
   }, 
   {
+    label: 'Docs',
+    icon: 'GitbookIcon',
+    href: 'https://docs.zaigar.finance/',
+  },
+  {
     label: 'Audit By TechRate',
     icon: 'AuditIcon',
     href: 'https://zaigar.finance/ZaigarFinanceTechRateAudit.pdf',
   },  
- /* {
-    label: 'Docs',
-    icon: 'GitbookIcon',
-    href: 'https://docs.zcore.fi/',
-  }, */
 ]
 
 export default config
