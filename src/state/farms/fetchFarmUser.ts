@@ -7,7 +7,6 @@ import { getMasterChefAddress } from 'utils/addressHelpers'
 
 const CHAIN_ID = process.env.REACT_APP_CHAIN_ID
 
-console.log(CHAIN_ID)
 
 export const fetchFarmUserAllowances = async (account: string) => {
   const masterChefAdress = getMasterChefAddress()
