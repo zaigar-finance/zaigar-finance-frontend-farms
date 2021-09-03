@@ -119,6 +119,23 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   }, */
   {
+    pid: 10,
+    risk: 2,
+    lpSymbol: 'ZEFI',
+    lpAddresses: {
+      97: '0x6ce8da28e2f864420840cf74474eff5fd80e65b8',
+      56: '0x09B0123e36A2b0A5b95474455E437e8861a6C61E',
+    },
+    isTokenOnly: true,
+    tokenSymbol: 'ZEFI',
+    tokenAddresses: {
+      97: '0x6ce8da28e2f864420840cf74474eff5fd80e65b8',
+      56: '0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  }, 
+  {
     pid: 5,
     risk: 1,
     lpSymbol: 'WBNB',
@@ -186,7 +203,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   }, 
-
 ]
 
 export default farms
