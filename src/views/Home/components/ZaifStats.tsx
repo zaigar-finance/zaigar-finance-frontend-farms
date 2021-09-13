@@ -25,11 +25,11 @@ const Row = styled.div`
 const ZaifStats = () => {
   const TranslateString = useI18n()
   const totalSupply = useZaifTotalSupply()
-  const maxSupply = 10000000 // useMaxSupply()
+  const maxSupply = new BigNumber(10000000000000000000000000) // useMaxSupply()
   const burnedBalance = useZaifBurnedBalance(getZaifAddress())
   const farms = useFarms();
   const zaifPrice =  usePriceZaifBusd();
-  const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
+  const circSupply = totalSupply ? maxSupply.minus(burnedBalance) : new BigNumber(0);
   const zaifSupply = getBalanceNumber(circSupply);
   const marketCap =  zaifPrice.times(circSupply);
 
@@ -53,11 +53,11 @@ const ZaifStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(999, 'Max Supply')}</Text>
-          {totalSupply && <CardValue fontSize="14px" value={maxSupply} decimals={0} />}
+          {totalSupply && <CardValue fontSize="14px" value={getBalanceNumber(maxSupply)} decimals={0} />}
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(999, 'Circulating Supply')}</Text>
-          {totalSupply && <CardValue fontSize="14px" value={getBalanceNumber(totalSupply)} decimals={0} />}
+          {totalSupply && <CardValue fontSize="14px" value={zaifSupply} decimals={0} />}
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(538, 'Total Burned')}</Text>
