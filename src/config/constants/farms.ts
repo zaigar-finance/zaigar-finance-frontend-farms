@@ -219,7 +219,23 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  }, 
+  },
+  {
+    pid: 12,
+    risk: 3,
+    lpSymbol: 'KPY-BNB LP',
+    lpAddresses: {
+      97: '0x6ce8da28e2f864420840cf74474eff5fd80e65b8',
+      56: '0x2223A6aC9989Afa5f2f81eE3ab04EE2cbA768a8e',
+    },
+    tokenSymbol: 'KPY',
+    tokenAddresses: {
+      97: '0x6ce8da28e2f864420840cf74474eff5fd80e65b8',
+      56: '0x809aeb4f6e6aa968019f791edc4d1d423db4aaca',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },  
 ]
 
 export default farms
